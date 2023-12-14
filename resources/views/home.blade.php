@@ -235,24 +235,5 @@
     </div>
     <hr class="text-light">
     {{-- --------------------------------------------------------------------------------------------------------- --}}
-    <div class="containers">
-        <div class="row">
-            <div class="col-md-12 text-center mt-5">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#videoModal">
-                    Open Video
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Video Modal -->
-    <div class="modal fade absolute-container" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-        <div class="absolute-element" role="document">
-            <div class="">
-                <iframe width="1050" height="590" src="https://www.youtube.com/embed/0VcC-5zqOWM" frameborder="3" allowfullscreen></iframe>
-            </div>
-            {{-- <iframe width="1036" height="583" src="https://www.youtube.com/embed/0VcC-5zqOWM" title="Suicide Squad: Kill the Justice League - OfficialJustice League Trailer - “No More Heroes” | DC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --}}
-        </div>
-    </div>
 </div>
 @endsection

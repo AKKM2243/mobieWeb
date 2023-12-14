@@ -63,13 +63,6 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="card-subtitle mb-2 text-muted small">
-                        {{ $movie['release_date']}}
-                    </div>
-                    <a class="btn btn-warning" href="{{ url("/movies/download/$movie->id") }}">
-                        Download
-                    </a>
-                    </div> --}}
                 </div>
             </div>
         </div>

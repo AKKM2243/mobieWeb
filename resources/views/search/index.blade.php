@@ -3,13 +3,8 @@
 
 @section('content')
     <div class="container">
-        {{-- <a class="nav-link text-white" href="{{ route('msearch.index') }}">Movies</a>
         <a class="nav-link text-white" href="{{ route('ssearch.index') }}">Series</a> --}}
-
         <div class="row">
-            <?php
-            // dd($meida)
-            ?>
             @foreach($media as $movie)
                 <div class="col mb-4" style="width: 20%;"> {{-- Set the width to 20% for 5 columns --}}
                     <div class="card rounded bg-dark text-white border-secondary">
@@ -33,9 +28,6 @@
                 @endif
             @endforeach
         </div>
-        {{-- <div class="container d-flex justify-content-center">
-            {{ $paginator->links() }}
-        </div> --}}
     </div>
 @endsection
 

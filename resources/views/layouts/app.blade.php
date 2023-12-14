@@ -28,21 +28,10 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-dark shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img class="img-fluid mlogo" src="logo/ML.png" alt="movie logo">
-                    <a class="text-danger text-decoration-none fs-3" href="/">{{ config('app.name', 'Laravel') }}</a>
-                </a>
-                {{-- <a href="#" class="navbar-brand">
-                    <img class="img-fluid logo" src="{{ asset('logo/FB.png') }}" alt="fb-logo">
-                </a>
-                <a href="#" class="navbar-brand">
-                    <img class="img-fluid logo" src="{{ asset('logo/IG.png') }}" alt="ig-logo">
-                </a> --}}
-
+                <a class="text-danger text-decoration-none fs-3" href="/">{{ config('app.name', 'Laravel') }}</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav m-auto">
