@@ -7,6 +7,14 @@ This is a movie website showcasing the latest releases, popular movies/series, a
 
 ## Installation step
 
+Certainly, here's an updated version considering the directory of the project file:
+
+Install XAMPP on your system.
+Navigate to your project directory using the terminal.
+Run the command "php artisan serve" to start the PHP development server.
+In the same project directory, execute "npm install" to install the necessary Node.js packages.
+After the installation, run "npm run dev" in the terminal to build and compile your assets.
+Ensure you are in the correct project directory before executing these commands.
 
 
 
