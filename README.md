@@ -2,7 +2,7 @@
 ![Screen Recording 2023-12-15 at 10 28 40 AM](https://github.com/AKKM2243/mobieWeb/assets/112840942/e16ff93b-0173-4f86-8b03-42f8a815e7fc)
 ## About 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This is a movie website showcasing the latest releases, popular movies/series, and much more. Built with Laravel, Bootstrap, and CSS, it seamlessly combines robust functionality with a visually appealing design.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
