@@ -7,12 +7,36 @@ This is a movie website showcasing the latest releases, popular movies/series, a
 
 ## Installation step
 
-Install XAMPP on your system.
-Navigate to your project directory using the terminal.
-Run the command "php artisan serve" to start the PHP development server.
-In the same project directory, execute "npm install" to install the necessary Node.js packages.
-After the installation, run "npm run dev" in the terminal to build and compile your assets.
-Ensure you are in the correct project directory before executing these commands.
+# Project Setup
+
+Follow these steps to set up your development environment:
+
+1. **Install XAMPP:**
+   - Download and install XAMPP on your system.
+
+2. **Navigate to Project Directory:**
+   - Open a terminal and navigate to the directory where your project is located.
+
+3. **Start PHP Development Server:**
+   - Run the following command to start the PHP development server:
+     ```
+     php artisan serve
+     ```
+
+4. **Install Node.js Packages:**
+   - In the project directory, run the following command to install the necessary Node.js packages:
+     ```
+     npm install
+     ```
+
+5. **Build and Compile Assets:**
+   - After the installation, run the following command to build and compile your assets:
+     ```
+     npm run dev
+     ```
+
+Make sure you are in the correct project directory before executing these commands.
+
 
 
 
