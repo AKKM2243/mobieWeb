@@ -11,31 +11,31 @@ This is a movie website showcasing the latest releases, popular movies/series, a
 
 Follow these steps to set up your development environment:
 
-1. **Install XAMPP:**
-   - Download and install XAMPP on your system.
-
-2. **Navigate to Project Directory:**
-   - Open a terminal and navigate to the directory where your project is located.
-
-3. **Start PHP Development Server:**
-   - Run the following command to start the PHP development server:
-     ```
-     php artisan serve
-     ```
-
-4. **Install Node.js Packages:**
-   - In the project directory, run the following command to install the necessary Node.js packages:
-     ```
+1. **Install npm Dependencies and Build Assets:**
+   - Navigate to your project directory using the terminal.
+   - Run the following commands:
+     ```bash
      npm install
-     ```
-
-5. **Build and Compile Assets:**
-   - After the installation, run the following command to build and compile your assets:
-     ```
      npm run dev
      ```
+   These commands install Node.js dependencies and build front-end assets.
 
-Make sure you are in the correct project directory before executing these commands.
+2. **Install Composer Dependencies:**
+   - In the same project directory, run the following command:
+     ```bash
+     composer install
+     ```
+   This command installs PHP dependencies using Composer.
+
+3. **Start PHP Development Server:**
+   - After the installation, run the following command to start the PHP development server:
+     ```bash
+     php artisan serve
+     ```
+   Keep the terminal open while the server is running.
+
+Ensure you are in the correct project directory when executing these commands. After completing these steps, you should be able to access your application at the specified URL provided by `php artisan serve`.
+
 
 
 
