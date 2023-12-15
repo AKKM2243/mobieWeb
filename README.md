@@ -7,8 +7,6 @@ This is a movie website showcasing the latest releases, popular movies/series, a
 
 ## Installation step
 
-Certainly, here's an updated version considering the directory of the project file:
-
 Install XAMPP on your system.
 Navigate to your project directory using the terminal.
 Run the command "php artisan serve" to start the PHP development server.
